@@ -1,30 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2022 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01) GRAX BASE
-02) GRAX TOPBAR
-03) GRAX MOBILE MENU
-04) GRAX HERO
-05) GRAX ABOUT
-06) GRAX PORTFOLIO
-07) GRAX TALK
-08) GRAX NEWS
-09) GRAX CONTACT
-10) GRAX COPYRIGHT
-11) GRAX CURSOR
-12) GRAX PARTICLE EFFECT
-13) GRAX GLITCH EFFECT
-14) GRAX MEDIA QUERIES (FOR SMALL DEVIVES)
-
-
-/*---------------------------------------------------*/
-/*	01) GRAX BASE
-/*---------------------------------------------------*/
-
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -623,7 +597,8 @@ h6 { font-size: 16px; }
     animation: scroll-down 2s ease-in-out infinite;;
 }
 
-@-webkit-keyframes scroll-down {
+@-webkit-keyframes scroll-down 
+{
   0% {
     height: 0;
   }
